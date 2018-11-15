@@ -16,7 +16,7 @@ public abstract class Produto {
 	public void mostrarProduto() {
 		System.out.println("Codigo: " + this.codigo);
 		System.out.println("Nome: " + this.nome);
-		System.out.println("Preço: R$" + this.preco);
+		System.out.println("Preco: R$" + this.preco);
 	}
 	
 	public abstract int getIndex();
