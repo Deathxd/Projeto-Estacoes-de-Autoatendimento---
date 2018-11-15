@@ -5,7 +5,7 @@ public class Loja {
 	static int qtd;
 	static final int limite = 15;
 
-	public void cadastrarProduto(Produto p, int qtd) {
+	public void cadastrarProduto(trabalho_2_poo.Produto p, int qtd) {
 
 	}
 }

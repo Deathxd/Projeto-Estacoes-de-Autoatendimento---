@@ -1,6 +1,6 @@
 package trabalho_2_poo;
 
-public class CD extends Produto {
+public class CD extends trabalho_2_poo.Produto {
 
 	private String autor;
 
@@ -18,7 +18,7 @@ public class CD extends Produto {
 
 	@Override
 	public int getIndex() {
-		return index;
+		return trabalho_2_poo.Produto.index;
 	}
 
 }

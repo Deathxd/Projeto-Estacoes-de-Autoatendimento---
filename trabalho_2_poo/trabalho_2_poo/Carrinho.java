@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Carrinho {
 	  static final int limite=10;
-	  List<Produto>[] produtos;
+	  List<trabalho_2_poo.Produto>[] produtos;
 	  int qtdTotal;
 	  double preco_total;
 
-	  public void adicionarAoCarrinho(Produto p, int qtd) {
+	  public void adicionarAoCarrinho(trabalho_2_poo.Produto p, int qtd) {
 		  produtos[p.getIndex()].add(p);
 	  }
 }

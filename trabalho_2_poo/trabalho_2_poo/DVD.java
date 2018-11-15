@@ -1,6 +1,6 @@
 package trabalho_2_poo;
 
-public class DVD extends Produto {
+public class DVD extends trabalho_2_poo.Produto {
 	
 	public DVD(int preco, int codigo, String nome) {
 		super(preco, codigo, nome);
@@ -10,6 +10,6 @@ public class DVD extends Produto {
 
 	@Override
 	public int getIndex() {
-		return index;
+		return trabalho_2_poo.Produto.index;
 	}
 }
